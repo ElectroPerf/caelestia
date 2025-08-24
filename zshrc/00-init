@@ -1,0 +1,14 @@
+# -----------------------------------------------------
+# INIT
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# Exports
+# -----------------------------------------------------
+export EDITOR=nvim
+export ZSH="$HOME/.oh-my-zsh"
+export PATH=$PATH:~/.cargo/bin/
+export PATH=$PATH:~/.local/bin/
+
+# Custom colours
+cat ~/.local/state/caelestia/sequences.txt 2> /dev/null
